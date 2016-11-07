@@ -11,7 +11,7 @@
 /**
  * Given the length of a sequence, return a r
  *
- */
+
 function get_random_next() {
 	return Math.floor(Math.random() * 4);
 }
@@ -25,6 +25,15 @@ var sequence = [];
 
 for (var i = 0; i < 10; i++) {
 	add_to_sequence(get_random_next());
-}
+}*/
 
-//alert(sequence);
+$(function(){
+    var birdhover     = $('#yellow');
+        var birdaudio = birdhover.find('audio')[0];
+
+    birdhover.hover(function(){
+       birdaudio.play();
+    }, function(){
+       birdaudio.stop();
+    });
+});

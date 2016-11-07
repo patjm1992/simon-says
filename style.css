@@ -19,69 +19,72 @@ html, body {
     height:100%;
     width: 25%;
     float: left;
-    background-color: yellow;
-    opacity: 0.5;
-    transition: opacity .50s ease-in-out;
-    -moz-transition: opacity .50s ease-in-out;
-    -webkit-transition: opacity .50s ease-in-out;
+    background-color: #999900;
+    opacity: 0.75;
+     transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
 }
 
 #green {
     height:100%;
     width: 25%;
     float: left;
-    background-color: green;
+    background-color: #009900;
+    opacity: 0.75;
 
-    opacity: 0.5;
   
     float: left;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+     transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
 }
 
 #red {
     height:100%;
     width: 25%;
     float: left;
-    background-color: red;
+    background-color: #990000;
 
-    opacity: 0.5;
 
+    opacity: 0.75;
     float: left;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
 }
 
 #blue {
     height:100%;
     width: 25%;
     float: left;
-    background-color: blue;
+    background-color: #003d99;
 
-    opacity: 0.5;
-  
+
+      opacity: 0.75;
     float: left;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
+      transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
 }
 
 #yellow:hover {
-    
-    opacity: 0.75;
+background-color: #ffff00;
+
 }
 
 #green:hover {
-    opacity: 0.75;
+    background-color: #00ff00;
+
 }
 
 #red:hover {
-    opacity: 0.75;
+    background-color: #ff0000;
+
 }
 
 #blue:hover {
-    opacity: 0.75;
+
+background-color: #0066ff;
 }
 
