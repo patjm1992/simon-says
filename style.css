@@ -1,11 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html, body {    
   height: 100%;
-  font-family: 'Space Mono', monospace;
-  font-size: 24px;
+  font-family: 'Open Sans', monospace;
+  font-size: 36px;
 
+}
+
+h1 {
+    position: absolute;
+    z-index: 100;
+    width: 50%;
+    margin: auto;
+    color: #ffffff;
+    letter-spacing: 1px;
+     transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+}
+
+h1:hover {
+    color:;
 }
 
 #container {
@@ -13,7 +30,12 @@ html, body {
     left: 0;
     height: 100%;
     width: 100%;
-}
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+ }
 
 #yellow {
     height: 98.5%;
@@ -63,7 +85,7 @@ html, body {
 }
 
 #yellow:active {
-    background-color: #ffff00;
+     background-color: #ffff00;
 }
 
 #green:active {

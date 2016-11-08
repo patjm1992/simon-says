@@ -33,6 +33,16 @@ $(document).ready(function() {
 	var note_3 = $('#note_3')[0];
 	var note_4 = $('#note_4')[0];*/
 
+
+	$('html').click(function () {
+		var filterVal = 'blur(0px)';
+		$("#container").css('filter', filterVal);
+		$("#container").css('webkitFilter', filterVal);
+		$("#container").css('mozFilter', filterVal);
+		$("#container").css('oFilter', filterVal);
+     	$("#container").css('msFilter', filterVal);
+	});
+
 	var note_1 = new Audio("sounds/note1.wav");
 	var note_2 = new Audio("sounds/note2.wav");
 	var note_3 = new Audio("sounds/note3.wav");
