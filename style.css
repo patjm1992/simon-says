@@ -21,7 +21,7 @@ html, body {
     float: left;
     background-color: #999900;
     opacity: 0.75;
-     transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
     -moz-transition: background-color .25s ease-in-out;
     -webkit-transition: background-color .25s ease-in-out;
 }
@@ -32,10 +32,8 @@ html, body {
     float: left;
     background-color: #009900;
     opacity: 0.75;
-
-  
     float: left;
-     transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
     -moz-transition: background-color .25s ease-in-out;
     -webkit-transition: background-color .25s ease-in-out;
 }
@@ -45,8 +43,6 @@ html, body {
     width: 25%;
     float: left;
     background-color: #990000;
-
-
     opacity: 0.75;
     float: left;
     transition: background-color .25s ease-in-out;
@@ -59,32 +55,27 @@ html, body {
     width: 25%;
     float: left;
     background-color: #003d99;
-
-
-      opacity: 0.75;
+    opacity: 0.75;
     float: left;
-      transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
     -moz-transition: background-color .25s ease-in-out;
     -webkit-transition: background-color .25s ease-in-out;
 }
 
-#yellow:hover {
-background-color: #ffff00;
-
+#yellow:active {
+    background-color: #ffff00;
 }
 
-#green:hover {
+#green:active {
     background-color: #00ff00;
-
 }
 
-#red:hover {
+#red:active {
     background-color: #ff0000;
 
 }
 
-#blue:hover {
-
-background-color: #0066ff;
+#blue:active {
+    background-color: #0066ff;
 }
 

@@ -27,13 +27,14 @@ for (var i = 0; i < 10; i++) {
 	add_to_sequence(get_random_next());
 }*/
 
-$(function(){
-    var birdhover     = $('#yellow');
-        var birdaudio = birdhover.find('audio')[0];
+$(document).ready(function() {
+	var note_1 = $('#note1')[0];
+	var note_2 = $('#note2')[0];
+	var note_3 = $('#note3')[0];
+	var note_4 = $('#note4')[0];
 
-    birdhover.hover(function(){
-       birdaudio.play();
-    }, function(){
-       birdaudio.stop();
-    });
+	$("#yellow").click(function() {
+		note_1.play();
+	})
+
 });
