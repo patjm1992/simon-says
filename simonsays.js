@@ -28,10 +28,10 @@ for (var i = 0; i < 10; i++) {
 }*/
 
 $(document).ready(function() {
-	var note_1 = $('#note1')[0];
-	var note_2 = $('#note2')[0];
-	var note_3 = $('#note3')[0];
-	var note_4 = $('#note4')[0];
+	var note_1 = $('#note_1')[0];
+	var note_2 = $('#note_2')[0];
+	var note_3 = $('#note_3')[0];
+	var note_4 = $('#note_4')[0];
 
 	$("#yellow").click(function() {
 		note_1.play();
@@ -48,5 +48,21 @@ $(document).ready(function() {
 	$("#blue").click(function() {
 		note_4.play();
 	})
+
+	function get_random_next() {
+		return Math.floor(Math.random() * 4);
+	}
+
+	function add_to_sequence(next) {
+		sequence.push(next);
+	}
+
+	var sequence = [];
+
+
+
+	
+
+
 
 });
