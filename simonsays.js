@@ -37,4 +37,16 @@ $(document).ready(function() {
 		note_1.play();
 	})
 
+	$("#green").click(function() {
+		note_2.play();
+	})
+
+	$("#red").click(function() {
+		note_3.play();
+	})
+
+	$("#blue").click(function() {
+		note_4.play();
+	})
+
 });
