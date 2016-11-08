@@ -16,50 +16,50 @@ html, body {
 }
 
 #yellow {
-    height:100%;
+    height: 98.5%;
     width: 25%;
     float: left;
     background-color: #999900;
     opacity: 0.75;
-    transition: background-color .25s ease-in-out;
-    -moz-transition: background-color .25s ease-in-out;
-    -webkit-transition: background-color .25s ease-in-out;
+    transition: background-color .10s ease-in-out;
+    -moz-transition: background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
 }
 
 #green {
-    height:100%;
+    height: 98.5%;
     width: 25%;
     float: left;
     background-color: #009900;
     opacity: 0.75;
     float: left;
-    transition: background-color .25s ease-in-out;
-    -moz-transition: background-color .25s ease-in-out;
-    -webkit-transition: background-color .25s ease-in-out;
+    transition: background-color .10s ease-in-out;
+    -moz-transition: background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
 }
 
 #red {
-    height:100%;
+    height: 98.5%;
     width: 25%;
     float: left;
     background-color: #990000;
     opacity: 0.75;
     float: left;
-    transition: background-color .25s ease-in-out;
-    -moz-transition: background-color .25s ease-in-out;
-    -webkit-transition: background-color .25s ease-in-out;
+    transition: background-color .10s ease-in-out;
+    -moz-transition: background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
 }
 
 #blue {
-    height:100%;
+    height: 98.5%;
     width: 25%;
     float: left;
     background-color: #003d99;
     opacity: 0.75;
     float: left;
-    transition: background-color .25s ease-in-out;
-    -moz-transition: background-color .25s ease-in-out;
-    -webkit-transition: background-color .25s ease-in-out;
+    transition: background-color .10s ease-in-out;
+    -moz-transition: background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
 }
 
 #yellow:active {
